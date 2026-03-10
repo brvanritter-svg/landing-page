@@ -101,6 +101,7 @@ button{
     padding: 0 64px;
     justify-content: center;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 .whale1,
