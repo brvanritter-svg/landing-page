@@ -8,7 +8,7 @@ body{
 .header{
     background-color: white;
     display: flex;
-    padding: 8px 64px 64px 64px;
+    padding: 16px 64px 64px 64px;
 }
 
 .navigation {
@@ -28,19 +28,27 @@ a {
     display: flex;
     background-color: white;
     padding-bottom: 16px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
 }
 
 .website-info-left{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-right: 64px;
+}
+
+.website-info-right{
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .website-info-name{
     font-size: 32px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .website-info-description{
@@ -55,7 +63,8 @@ a {
     padding: 8 8px;
     width: 100px;
     height: 30px;
-    margin-top: 16px;
+    margin: 16px 0;
+    border: none;
 }
 
 .whale-info{
@@ -69,4 +78,15 @@ a {
 
 .subscribe {
     background-color: #303030;
+}
+
+#img-banner{
+    width: 500px;
+    max-height: 250px;
+    border-radius: 32px;
+    align-self: center;
+}
+
+button{
+    cursor: pointer;
 }
