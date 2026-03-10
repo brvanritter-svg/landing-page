@@ -69,7 +69,7 @@ a {
 
 .whale-info{
     background-color: #303030;
-    flex: 1;   
+    padding: 64px 0;
 }
 
 .whale-quote{
@@ -89,4 +89,46 @@ a {
 
 button{
     cursor: pointer;
+}
+
+.whale-cards{
+    display: flex;
+    padding: 0 64px;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.whale1,
+.whale2,
+.whale3{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 32px;
+    padding: 16px;
+    max-width: 270px;
+    gap: 16px;
+}
+
+#whale{
+    border-radius: 16px;
+}
+
+.whale-quote{
+    display: flex;
+    padding: 32px 48px 32px 48px;
+    flex-direction: column;
+}
+.quote{
+    width: 500px;
+    align-self: center;
+    font-style: italic;
+}
+.quote-author{
+    width: 500px;
+    align-self: center;
+    text-align: end;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
 }
