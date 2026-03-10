@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #303030;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    padding: 8px 64px 64px 64px;
+}
+
+.navigation {
+    align-self: center;
+    margin-left: auto;
+    display: flex;
+    gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.website-info{
+    padding: 0 64px;
+    display: flex;
+    background-color: white;
+    padding-bottom: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.website-info-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.website-info-name{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.website-info-description{
+    max-width: 500px;
+}
+
+.newsletter-button{
+    border-radius: 16px;
+    background-color: #303030;
+    color: white;
+    font-weight: 900;
+    padding: 8 8px;
+    width: 100px;
+    height: 30px;
+    margin-top: 16px;
+}
+
+.whale-info{
+    background-color: #303030;
+    flex: 1;   
+}
+
+.whale-quote{
+    background-color: #D9D9D9;
+}
+
+.subscribe {
+    background-color: #303030;
+}
