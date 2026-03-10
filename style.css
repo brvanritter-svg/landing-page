@@ -55,7 +55,8 @@ a {
     max-width: 500px;
 }
 
-.newsletter-button{
+.newsletter-button,
+#sub-button{
     border-radius: 16px;
     background-color: #303030;
     color: white;
@@ -78,6 +79,9 @@ a {
 
 .subscribe {
     background-color: #303030;
+    padding: 64px 64px 64px 64px;
+    display: flex;
+    justify-content: center;
 }
 
 #img-banner{
@@ -131,4 +135,26 @@ button{
     font-size: 12px;
     font-weight: bold;
     font-style: italic;
+}
+
+.subscribe-info{
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    gap: 16rem;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+.subscribe-text{
+    width: fit-content;
+    align-self: center;
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 16px 0 8px 0;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
 }
